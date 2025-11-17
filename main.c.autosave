@@ -1,0 +1,88 @@
+﻿#include <conio.h>
+#include <stdio.h>
+#include <Windows.h>
+
+#include "menu.h"
+#include "integral.h"
+
+int main() {
+  bool is_exit = false;
+  int point = 0;
+  struct dataIntegral data;
+  struct limit limit_bounds;
+  limit_bounds.min = -500;
+  limit_bounds.max = 500;
+
+  struct limit limit_step;
+  limit.min = 0.000001;
+  limit.max
+
+  int code_input;
+
+  // Подключение русского языка
+  SetConsoleOutputCP(65001);
+  SetConsoleCP(65001);
+
+  while (isExit == NO) {
+    Print_Menu(list_menu, point);
+    
+    enum keys_menu key = _getch();
+    switch (key) {
+      case UP: // Нажатие стрелки вверх
+        point = (point - 1) % SIZE_MENU; 
+        break;
+      case DOWN: // Нажатие стрелки вниз
+        point = (point + 1) % SIZE_MENU;
+        break;
+      case ENTER: // Выбор меню
+        switch (point) {
+          case 0:
+            do {
+              code_input = Valid_Input(
+                data.bounds.min,
+                limit_bounds,
+                "Введите нижнею границу: "
+              );
+            } while (code_input != CODE_GOOD_INPUT);
+            do {
+              code_input = Valid_Input(
+                data.bounds.max,
+                limit_bounds,
+                "Введите вверхнюю границу: "
+              );
+            } while (code_input != CODE_GOOD_INPUT);                        
+            break;
+          case 1:
+            do {
+              code_input = Valid_Input(
+                data.bounds.max,
+                limit_bounds,
+                "Введите шаг интегрирования: "
+              );
+            } while (code_input != CODE_GOOD_INPUT);                                    
+            break;
+          case 2:
+            break;
+          case 3:
+            break;
+          case 4:
+            break;
+          case 5:
+            break;
+          case 6:
+            break;
+        }   
+          
+        break;
+      case ESC:
+        
+        break;
+    default:
+      
+      break;
+}
+
+  }
+
+  return 0;
+}

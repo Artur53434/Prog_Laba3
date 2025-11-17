@@ -1,0 +1,29 @@
+﻿#ifndef MENU_H
+#define MENU_H
+
+#define SIZE_MENU 7
+#define CODE_ERROR_INPUT 400
+#define CODE_GOOD_INPUT 1
+#define STR_INCORECT_INPUT "Не коректный ввод. Пожалуйста повторите попитку."
+#define STR_VALUE_BEYOND \
+    "Значение находиться за пределами допустимых значений. Пожалуйста введите значение согластно " \
+    "инструкциям."
+#define STR_LINE \
+    "----------------------------------------------------------------------------------------"
+
+enum keys_
+
+extern const char* list_menu[SIZE_MENU];
+
+// Вывод меню
+void Print_Menu(const char **list_menu, int point);
+// О программе
+void About_Program();
+// Вывод статуса интеграла
+void Output_Status(struct dataIntegral data);
+// Валидный ввод
+int Valid_Input(double *input, struct limit, char *text);
+// Очистка буффера ввода
+void Clear_Input_Buffer();
+
+#endif // MENU_H
