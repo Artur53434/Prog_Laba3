@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: Prog_Consol_Project_Laba3_v0_5
+# Project: Prog_Laba3
 # Configurations: Debug
 # =============================================================================
 
@@ -39,49 +39,58 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/QT_Project/Prog_Consol_Project_Laba3_v0_5/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/
+cmake_ninja_workdir = D$:/QT_Project/Prog_Laba3/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Prog_Consol_Project_Laba3_v0_5
+# Object build statements for EXECUTABLE target Prog_Laba3
 
 
 #############################################
-# Order-only phony target for Prog_Consol_Project_Laba3_v0_5
+# Order-only phony target for Prog_Laba3
 
-build cmake_object_order_depends_target_Prog_Consol_Project_Laba3_v0_5: phony || .
+build cmake_object_order_depends_target_Prog_Laba3: phony || .
 
-build CMakeFiles/Prog_Consol_Project_Laba3_v0_5.dir/main.c.obj: C_COMPILER__Prog_Consol_Project_Laba3_v0_5_unscanned_Debug D$:/QT_Project/Prog_Consol_Project_Laba3_v0_5/main.c || cmake_object_order_depends_target_Prog_Consol_Project_Laba3_v0_5
-  DEP_FILE = CMakeFiles\Prog_Consol_Project_Laba3_v0_5.dir\main.c.obj.d
+build CMakeFiles/Prog_Laba3.dir/main.c.obj: C_COMPILER__Prog_Laba3_unscanned_Debug D$:/QT_Project/Prog_Laba3/main.c || cmake_object_order_depends_target_Prog_Laba3
+  DEP_FILE = CMakeFiles\Prog_Laba3.dir\main.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Prog_Consol_Project_Laba3_v0_5.dir
-  OBJECT_FILE_DIR = CMakeFiles\Prog_Consol_Project_Laba3_v0_5.dir
-  TARGET_COMPILE_PDB = CMakeFiles\Prog_Consol_Project_Laba3_v0_5.dir\
-  TARGET_PDB = Prog_Consol_Project_Laba3_v0_5.pdb
+  OBJECT_DIR = CMakeFiles\Prog_Laba3.dir
+  OBJECT_FILE_DIR = CMakeFiles\Prog_Laba3.dir
+
+build CMakeFiles/Prog_Laba3.dir/integral.c.obj: C_COMPILER__Prog_Laba3_unscanned_Debug D$:/QT_Project/Prog_Laba3/integral.c || cmake_object_order_depends_target_Prog_Laba3
+  DEP_FILE = CMakeFiles\Prog_Laba3.dir\integral.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Prog_Laba3.dir
+  OBJECT_FILE_DIR = CMakeFiles\Prog_Laba3.dir
+
+build CMakeFiles/Prog_Laba3.dir/menu.c.obj: C_COMPILER__Prog_Laba3_unscanned_Debug D$:/QT_Project/Prog_Laba3/menu.c || cmake_object_order_depends_target_Prog_Laba3
+  DEP_FILE = CMakeFiles\Prog_Laba3.dir\menu.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Prog_Laba3.dir
+  OBJECT_FILE_DIR = CMakeFiles\Prog_Laba3.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Prog_Consol_Project_Laba3_v0_5
+# Link build statements for EXECUTABLE target Prog_Laba3
 
 
 #############################################
-# Link the executable Prog_Consol_Project_Laba3_v0_5.exe
+# Link the executable Prog_Laba3.exe
 
-build Prog_Consol_Project_Laba3_v0_5.exe: C_EXECUTABLE_LINKER__Prog_Consol_Project_Laba3_v0_5_Debug CMakeFiles/Prog_Consol_Project_Laba3_v0_5.dir/main.c.obj
+build Prog_Laba3.exe: C_EXECUTABLE_LINKER__Prog_Laba3_Debug CMakeFiles/Prog_Laba3.dir/main.c.obj CMakeFiles/Prog_Laba3.dir/integral.c.obj CMakeFiles/Prog_Laba3.dir/menu.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Prog_Consol_Project_Laba3_v0_5.dir
+  OBJECT_DIR = CMakeFiles\Prog_Laba3.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Prog_Consol_Project_Laba3_v0_5.dir\
-  TARGET_FILE = Prog_Consol_Project_Laba3_v0_5.exe
-  TARGET_IMPLIB = libProg_Consol_Project_Laba3_v0_5.dll.a
-  TARGET_PDB = Prog_Consol_Project_Laba3_v0_5.pdb
+  TARGET_FILE = Prog_Laba3.exe
+  TARGET_IMPLIB = libProg_Laba3.dll.a
+  TARGET_PDB = Prog_Laba3.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\QT_Project\Prog_Consol_Project_Laba3_v0_5\build\Desktop_Qt_6_9_3_MinGW_64_bit-Debug && D:\Qt\Tools\CMake_64\bin\cmake-gui.exe -SD:\QT_Project\Prog_Consol_Project_Laba3_v0_5 -BD:\QT_Project\Prog_Consol_Project_Laba3_v0_5\build\Desktop_Qt_6_9_3_MinGW_64_bit-Debug"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\QT_Project\Prog_Laba3\build\Desktop_Qt_6_9_3_MinGW_64_bit-Debug && D:\Qt\Tools\CMake_64\bin\cmake-gui.exe -SD:\QT_Project\Prog_Laba3 -BD:\QT_Project\Prog_Laba3\build\Desktop_Qt_6_9_3_MinGW_64_bit-Debug"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -93,7 +102,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\QT_Project\Prog_Consol_Project_Laba3_v0_5\build\Desktop_Qt_6_9_3_MinGW_64_bit-Debug && D:\Qt\Tools\CMake_64\bin\cmake.exe --regenerate-during-build -SD:\QT_Project\Prog_Consol_Project_Laba3_v0_5 -BD:\QT_Project\Prog_Consol_Project_Laba3_v0_5\build\Desktop_Qt_6_9_3_MinGW_64_bit-Debug"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\QT_Project\Prog_Laba3\build\Desktop_Qt_6_9_3_MinGW_64_bit-Debug && D:\Qt\Tools\CMake_64\bin\cmake.exe --regenerate-during-build -SD:\QT_Project\Prog_Laba3 -BD:\QT_Project\Prog_Laba3\build\Desktop_Qt_6_9_3_MinGW_64_bit-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -111,7 +120,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\QT_Project\Prog_Consol_Project_Laba3_v0_5\build\Desktop_Qt_6_9_3_MinGW_64_bit-Debug && D:\Qt\Tools\CMake_64\bin\cmake.exe -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\QT_Project\Prog_Laba3\build\Desktop_Qt_6_9_3_MinGW_64_bit-Debug && D:\Qt\Tools\CMake_64\bin\cmake.exe -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -123,7 +132,7 @@ build install: phony CMakeFiles/install.util
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\QT_Project\Prog_Consol_Project_Laba3_v0_5\build\Desktop_Qt_6_9_3_MinGW_64_bit-Debug && D:\Qt\Tools\CMake_64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\QT_Project\Prog_Laba3\build\Desktop_Qt_6_9_3_MinGW_64_bit-Debug && D:\Qt\Tools\CMake_64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -135,7 +144,7 @@ build install/local: phony CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\QT_Project\Prog_Consol_Project_Laba3_v0_5\build\Desktop_Qt_6_9_3_MinGW_64_bit-Debug && D:\Qt\Tools\CMake_64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\QT_Project\Prog_Laba3\build\Desktop_Qt_6_9_3_MinGW_64_bit-Debug && D:\Qt\Tools\CMake_64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -145,7 +154,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 # =============================================================================
 # Target aliases.
 
-build Prog_Consol_Project_Laba3_v0_5: phony Prog_Consol_Project_Laba3_v0_5.exe
+build Prog_Laba3: phony Prog_Laba3.exe
 
 # =============================================================================
 # Folder targets.
@@ -153,9 +162,9 @@ build Prog_Consol_Project_Laba3_v0_5: phony Prog_Consol_Project_Laba3_v0_5.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/QT_Project/Prog_Consol_Project_Laba3_v0_5/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug
+# Folder: D:/QT_Project/Prog_Laba3/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug
 
-build all: phony Prog_Consol_Project_Laba3_v0_5.exe
+build all: phony Prog_Laba3.exe
 
 # =============================================================================
 # Built-in targets
@@ -164,14 +173,14 @@ build all: phony Prog_Consol_Project_Laba3_v0_5.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | .qtc/package-manager/auto-setup.cmake .qtc/package-manager/maintenance_tool_provider.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/QT_Project/Prog_Consol_Project_Laba3_v0_5/CMakeLists.txt D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCCompilerABI.c D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCInformation.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineRCCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeNinjaFindMake.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeRCCompiler.cmake.in D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeRCInformation.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystem.cmake.in D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestRCCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GNU.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | .qtc/package-manager/auto-setup.cmake .qtc/package-manager/maintenance_tool_provider.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/QT_Project/Prog_Laba3/CMakeLists.txt D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCInformation.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeRCInformation.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GNU.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build .qtc/package-manager/auto-setup.cmake .qtc/package-manager/maintenance_tool_provider.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/QT_Project/Prog_Consol_Project_Laba3_v0_5/CMakeLists.txt D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCCompilerABI.c D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCInformation.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineRCCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeNinjaFindMake.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeRCCompiler.cmake.in D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeRCInformation.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystem.cmake.in D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeTestRCCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GNU.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake: phony
+build .qtc/package-manager/auto-setup.cmake .qtc/package-manager/maintenance_tool_provider.cmake CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/QT_Project/Prog_Laba3/CMakeLists.txt D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCInformation.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeRCInformation.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Compiler/GNU.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows.cmake D$:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: Prog_Consol_Project_Laba3_v0_5
+# Project: Prog_Laba3
 # Configurations: Debug
 # =============================================================================
 # =============================================================================
@@ -14,7 +14,7 @@
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__Prog_Consol_Project_Laba3_v0_5_unscanned_Debug
+rule C_COMPILER__Prog_Laba3_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}D:\Qt\Tools\mingw1310_64\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -24,7 +24,7 @@ rule C_COMPILER__Prog_Consol_Project_Laba3_v0_5_unscanned_Debug
 #############################################
 # Rule for linking C executable.
 
-rule C_EXECUTABLE_LINKER__Prog_Consol_Project_Laba3_v0_5_Debug
+rule C_EXECUTABLE_LINKER__Prog_Laba3_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && D:\Qt\Tools\mingw1310_64\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = D:\Qt\Tools\CMake_64\bin\cmake.exe --regenerate-during-build -SD:\QT_Project\Prog_Consol_Project_Laba3_v0_5 -BD:\QT_Project\Prog_Consol_Project_Laba3_v0_5\build\Desktop_Qt_6_9_3_MinGW_64_bit-Debug
+  command = D:\Qt\Tools\CMake_64\bin\cmake.exe --regenerate-during-build -SD:\QT_Project\Prog_Laba3 -BD:\QT_Project\Prog_Laba3\build\Desktop_Qt_6_9_3_MinGW_64_bit-Debug
   description = Re-running CMake...
   generator = 1
 

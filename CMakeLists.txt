@@ -1,11 +1,17 @@
 ﻿cmake_minimum_required(VERSION 3.16)
 
-project(Prog_Consol_Project_Laba3_v0_5 LANGUAGES C)
+project(Prog_Laba3 LANGUAGES C)
 
-add_executable(Prog_Consol_Project_Laba3_v0_5 main.c)
+add_executable(Prog_Laba3
+    main.c
+    integral.c
+    integral.h
+    menu.c
+    menu.h
+)
 
 include(GNUInstallDirs)
-install(TARGETS Prog_Consol_Project_Laba3_v0_5
+install(TARGETS Prog_Laba3
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
